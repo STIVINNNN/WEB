@@ -17,7 +17,7 @@ document.getElementById('signup-form').addEventListener('submit', function(e) {
     }
 
     // Display an alert (you can replace this with an actual backend call or redirection)
-    alert(`Sign up successful! You are a ${role}. Redirecting to ${redirectUrl}`);
+    alert(`Sign up successful! You are a ${role} on EducFolio. Redirecting to ${redirectUrl}`);
 
     // Redirect to the appropriate page
     window.location.href = redirectUrl;
